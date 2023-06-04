@@ -1,0 +1,194 @@
+/*
+   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+   Author: Sara Echeverria
+   FileName: index.css
+   Version: I
+   Creation: 02/06/2023
+   Last modification: 02/06/2023
+*/
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SuperMario";
+  src: url(/Fonts/Mario/SuperMario256.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  background: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
+  background-color: #5C546B;
+  position: relative;
+  overflow-x: hidden;
+  -webkit-overflow-x: hidden;
+}
+
+.overflow-hidden-web {
+  overflow: hidden;
+  -webkit-overflow: hidden;
+}
+
+.message::after {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  background: #292D44;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  border-radius: 0 0 0 100%;
+}
+
+#repulse-div {
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-filter: drop-shadow(0 0 5rem #292D44);
+  filter: drop-shadow(0 0 5rem #292D44);
+}
+
+#repulse-div > h1 {
+  -webkit-filter: drop-shadow(0 0 5rem #292D44);
+  filter: drop-shadow(0 0 5rem #292D44);
+}
+
+#journey-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+#journey-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.arrowpath,
+polyline {
+  fill: none;
+  stroke: #515152;
+  vector-effect: non-scaling-stroke;
+  stroke-width: 2;
+}
+
+.arrowpath {
+  stroke-dasharray: 11, 5;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.blob {
+  animation: morph 3.6s linear infinite;
+  background: #292D44;
+  border-collapse: separate;
+  background-size: cover;
+  background-position: center;
+  outline: 1px solid transparent;
+}
+
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    -webkit-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    -moz-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+  }
+  34% {
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    -webkit-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    -moz-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+  }
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -webkit-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -moz-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+  }
+}
+
+.bounce {
+  transition: all 0.3s ease-out;
+}
+
+.bounce:hover {
+  display: inline-block;
+  animation: rubberband 0.8s ease-out;
+  color: #cbbde5;
+}
+
+@keyframes rubberband {
+  0% {
+    transform: scaleX(1);
+  }
+  40% {
+    transform: scaleX(1.12) scaleY(0.75);
+  }
+  55% {
+    transform: scaleX(0.85) scaleY(1);
+  }
+  65% {
+    transform: scaleX(1.09) scaleY(0.85);
+  }
+  75% {
+    transform: scaleX(0.9) scaleY(1);
+  }
+  90% {
+    transform: scaleX(1.05) scaleY(0.95);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .drop-shadow-div {
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-filter: drop-shadow(0 0 1.5rem #cbbde5);
+    filter: drop-shadow(0 0 1.5rem #cbbde5);
+  }
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #ecfdf4;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+  content: '';  
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: #cbbde5 transparent;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
