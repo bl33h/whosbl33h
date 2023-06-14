@@ -29,7 +29,7 @@ $ npm run dev
 ## Files
 
 - src: the file that implements de solution.
--  assets: resources that are used in an application.
+- assets: resources that are used in an application.
 - components: reusable pieces of code that define the appearance and behavior of a part of the UI.
 - pages: the different areas of the portfolio.
 - constants: values that cannot be altered by the program during normal execution.
