@@ -9,7 +9,7 @@ My personal portfolio implemented with React. The eslint, vite and tailwind tech
 <p align="center" >
   <a href="#features">Features</a> •
   <a href="#files">Files</a> •
-  <a href="#how-to-use">How To User</a> •
+  <a href="#how-to-use">How To Use</a> •
   <a href="#packages">Packages</a>   
 </p>
 <p align="center" >
