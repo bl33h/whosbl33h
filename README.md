@@ -3,7 +3,7 @@ My personal portfolio implemented with React. The eslint, vite and tailwind tech
 
 <p align="center">
   <br>
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Freactjsexample.com%2Fwhosbl33h-personal-portfolio-implemented-with-react%2F&psig=AOvVaw13rdruWBS_21TxnWWIVRej&ust=1686852895227000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPi87pSvw_8CFQAAAAAdAAAAABAE" alt="wb" width="400">
+  <img src="https://reactjsexample.com/content/images/2023/06/Code-2023-05-36-15.jpg" alt="wb" width="400">
   <br>
 </p>
 <p align="center" >
