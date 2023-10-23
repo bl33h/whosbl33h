@@ -192,3 +192,15 @@ polyline {
     transform: rotate(360deg);
   }
 } 
+
+.hero-font-size {
+	font-size: 3.5rem;
+	line-height: 1;
+}
+@media (min-width: 767px) {
+	.hero-font-size {
+		font-size: 8.5rem;
+		line-height: 1;
+	}
+}
+
