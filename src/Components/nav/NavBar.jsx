@@ -83,14 +83,25 @@ const Navbar = () => {
 							!toggle ? "hidden" : "flex"
 						} pt-20 p-6 black-gradient absolute top-2 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
 					>
-						<ul className="list-none flex justify-end items-start flex-col gap-4">
+						<div
+							className="w-full h-full"
+							style={{
+								position: "absolute",
+								top: -15,
+								left: 0,
+								width: "120%",
+								height: "110%",
+								zIndex: -1,
+								backgroundImage:
+									"linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7) )",
+							}}
+						></div>
+
+						<ul className="list-none flex justify-end items-start flex-col gap-4 text-grayscale-50">
 							{navLinks.map((link) => {
 								return (
 									<li
 										key={link.id}
-										className={`${
-											active === link.title ? "text-white" : "text-secondary"
-										} font-poppins font-medium cursor-pointer text-[16px]`}
 										onClick={() => {
 											setActive(link.title);
 											setToggle(!toggle);
