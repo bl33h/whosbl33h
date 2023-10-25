@@ -102,24 +102,23 @@ export const slideIn = (direction, type, delay, duration) => {
 	};
 };
 
-// const SectionWrapper = (Component, idName) =>
-//   function HOC() {
-//     return (
-//       <motion.section
-//         variants={staggerContainer()}
-//         initial='hidden'
-//         whileInView='show'
-//         viewport={{ once: true, amount: 0.25 }}
-//         className={`${styles.padding} max-w-7xl mx-auto relative z-0 my-[-17%] w-[500%]`}
-//         style={{ marginLeft: "-20%" }}
-//       >
-//         <span className='hash-span' id={idName}>
-//           &nbsp;
-//         </span>
-//         <Component />
-//       </motion.section>
-//     )
-//   };
+const SectionWrapper = (Component, idName) =>
+	function HOC() {
+		return (
+			<motion.section
+				variants={staggerContainer()}
+				initial="hidden"
+				whileInView="show"
+				viewport={{ once: true, amount: 0.25 }}
+				className={""}
+			>
+				<span className="hash-span" id={idName}>
+					&nbsp;
+				</span>
+				<Component />
+			</motion.section>
+		);
+	};
 
 const ProjectCard = ({
 	index,
@@ -184,7 +183,7 @@ const ProjectCard = ({
 
 const Works = () => {
 	return (
-		<div className="mt-5  flex-wrap sm:flex-nowrap flex  gap-7 text-grayscale-50  w-[full]  justify-center">
+		<div className="mt-5 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-7 text-grayscale-50 w-full justify-items-center place-content-center">
 			{projects.map((project, index) => (
 				<ProjectCard key={`project-${index}`} index={index} {...project} />
 			))}
@@ -192,4 +191,4 @@ const Works = () => {
 	);
 };
 
-export default Works;
+export default SectionWrapper(Works, "");
