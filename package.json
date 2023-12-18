@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "vite": "^4.2.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@types/react-dom": "^18.0.11",
     "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
@@ -16,11 +19,8 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@motionone/utils": "^10.15.1",
     "@react-hook/window-size": "^3.1.1",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^3.1.0",
-    "autoprefixer": "^10.4.14",
-    "dotenv": "^16.0.3",
     "emailjs": "^4.0.2",
+    "emailjs-com": "^3.2.0",
     "font-awesome": "^4.7.0",
     "framer-motion": "^10.11.2",
     "gsap": "^3.11.5",
@@ -43,8 +43,10 @@
     "react-tsparticles": "^2.9.3",
     "react-use": "^17.4.0",
     "sort-by": "^0.0.2",
+    "tsparticles": "^2.9.3",
     "tailwindcss": "^3.3.1",
-    "vite": "^4.2.0"
+    "autoprefixer": "^10.4.14",
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
