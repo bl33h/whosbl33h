@@ -121,7 +121,7 @@ const projects = [
   {
     name: "Pawsitive",
     description:
-      "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
+      "Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design contribute to a noble cause.",
     image: pawsitivePrototype,
     source_code_link: "https://github.com/bl33h/pawsitive",
     demo_link:
