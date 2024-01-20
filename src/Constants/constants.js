@@ -86,7 +86,7 @@ const introduction = {
     "My name is prasanna , I'm 24 and a junior computer science student based in Guatemala. I have a strong passion for the technologies related to the data base construction and UX.",
     "Outside of my regular activities, I'm into drawing whenever I have some free time. I'm also a huge dog lover and enjoy playing chess for fun.",
 
-    "I'm continuously thrilled to partner with individuals and teams who wholeheartedly embrace my fervor for crafting extraordinary experiences. Your visit to my portfolio is deeply appreciated !",
+    "I'm continuously thrilled to partner with individuals and teams who wholeheartedly embrace my fervor for crafting extraordinary experiences.",
   ],
 };
 
