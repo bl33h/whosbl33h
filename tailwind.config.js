@@ -12,7 +12,7 @@ export default {
     },
     colors: {
       primary: {
-        400: '#cbbde5',
+        400: '#B64D80',
         500: '#5C546B',
         600: '#CDBCEB',
       },

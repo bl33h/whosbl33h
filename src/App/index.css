@@ -42,7 +42,7 @@ body {
   content: " ";
   width: 10px;
   height: 10px;
-  background: #292D44;
+  background: transparent;
   position: absolute;
   bottom: -10px;
   right: 0;
@@ -52,13 +52,13 @@ body {
 #repulse-div {
   -webkit-appearance: none;
   appearance: none;
-  -webkit-filter: drop-shadow(0 0 5rem #292D44);
-  filter: drop-shadow(0 0 5rem #292D44);
+  -webkit-filter: drop-shadow(0 0 5rem #eec5d9);
+  filter: drop-shadow(0 0 5rem #B64D80);
 }
 
 #repulse-div > h1 {
-  -webkit-filter: drop-shadow(0 0 5rem #292D44);
-  filter: drop-shadow(0 0 5rem #292D44);
+  -webkit-filter: drop-shadow(0 0 5rem #eec5d9);
+  filter: drop-shadow(0 0 5rem #eec5d9);
 }
 
 #journey-scroll::-webkit-scrollbar {
@@ -73,8 +73,7 @@ body {
 .arrowpath,
 polyline {
   fill: none;
-  stroke: #515152;
-  vector-effect: non-scaling-stroke;
+  stroke: #B64D80;
   stroke-width: 2;
 }
 
@@ -93,11 +92,11 @@ polyline {
 
 .blob {
   animation: morph 3.6s linear infinite;
-  background: #292D44;
+  background: transparent;
   border-collapse: separate;
   background-size: cover;
   background-position: center;
-  outline: 1px solid transparent;
+  outline: 1px #B64D80;
 }
 
 @keyframes morph {
@@ -126,7 +125,7 @@ polyline {
 .bounce:hover {
   display: inline-block;
   animation: rubberband 0.8s ease-out;
-  color: #cbbde5;
+  color: #763B57;
 }
 
 @keyframes rubberband {
@@ -157,15 +156,15 @@ polyline {
   .drop-shadow-div {
     -webkit-appearance: none;
     appearance: none;
-    -webkit-filter: drop-shadow(0 0 1.5rem #cbbde5);
-    filter: drop-shadow(0 0 1.5rem #cbbde5);
+    -webkit-filter: drop-shadow(0 0 1.5rem #eec5d9);
+    filter: drop-shadow(0 0 1.5rem #eec5d9);
   }
 }
 
 .loader {
   width: 100px;
   height: 100px;
-  border: 5px solid #ecfdf4;
+  border: 5px solid #B64D80;
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -181,7 +180,7 @@ polyline {
   height: 80px;
   border-radius: 50%;
   border: 5px solid;
-  border-color: #cbbde5 transparent;
+  border-color: #B64D80 transparent;
 }
 
 @keyframes rotation {
