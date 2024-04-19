@@ -8,7 +8,7 @@
 */
 
 // Logo
-import bl33hIcon from './logo/bl33hIcon.png';
+import bl33hIcon from './logo/icon.png';
 
 // Technologies
 import htmlIcon from './tech/html.png';
