@@ -50,7 +50,7 @@ const ContactForm = () => {
       <div>
         <h2
           style={{ fontFamily: "Morganite Bold, sans-serif" }}
-          className="message text-7xl bg-primary-600 p-2 rounded-xl text-grayscale-200 text-center rounded-br-[0%] relative shadow-2xl"
+          className="message text-7xl bg-primary-400 p-2 rounded-xl text-grayscale-200 text-center rounded-br-[0%] relative shadow-2xl"
         >
           <Typewriter words={["Let's get in touch!"]} loop={true} />
           &nbsp;
@@ -110,7 +110,7 @@ const ContactForm = () => {
           </div>
           <div className="w-full flex justify-center">
             <input
-              className="w-[100px] h-[50px] bg-primary-600 rounded-xl cursor-pointer hover:bg-primary-700"
+              className="w-[100px] h-[50px] bg-primary-400 rounded-xl cursor-pointer hover:bg-primary-700"
               type="submit"
               value={!isSent ? 'Send' : 'Done!'}
               

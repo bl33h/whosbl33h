@@ -23,7 +23,7 @@ const BgQuote = (props) => {
       >
         <p
           style={{ fontFamily: "La Belle Aurore, cursive" }}
-          className="text-grayscale-600 text-lg noselect"
+          className="text-grayscale-400 text-lg noselect"
         >
           {text}
         </p>
