@@ -20,7 +20,7 @@ export default {
         50: '#ffffff',
         100: '#efefef',
         200: '#FDFDFF',
-        950: '#16161b',
+        950: '#823A5D',
       },
     },
   },
