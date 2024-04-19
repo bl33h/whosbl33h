@@ -14,7 +14,7 @@ export default {
       primary: {
         400: '#B64D80',
         500: '#5C546B',
-        600: '#CDBCEB',
+        600: '#CD6899',
       },
       grayscale: {
         50: '#ffffff',
