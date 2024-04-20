@@ -31,7 +31,7 @@ const SkillsCards = () => {
           key={index}
           className="card w-[300px] h-[300px] flex flex-col items-center  bg-primary-500 rounded-xl border-4 border-primary-400 cursor-pointer"
         >
-          <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col">
+          <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col text-primary-200">
             <img
               className="h-[50px] flex justify-center items-center w-[50px]  bg-grayscale-25 rounded-[50%] p-1 object-contain"
               src={skill.icon}
@@ -47,10 +47,11 @@ const SkillsCards = () => {
               {skill.title}
             </span>
             <span
-              className="text-center bg-primary-500 text-grayscale-25 rounded-xl text-sm p-4"
+              className="text-center bg-primary-500 text-primary-200 rounded-xl text-sm p-4"
               style={{
                 fontFamily: "Poppins, sans-serif",
-                fontWeight: "500",
+                fontWeight: "600",
+                fontSize: "0.9rem",
               }}
             >
               {skill.description}
