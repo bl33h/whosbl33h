@@ -132,7 +132,7 @@ const SectionWrapper = (Component, idName) =>
             scale: 1,
             speed: 450
           }}
-          className='text-grayscale-50 p-5 rounded-lg sm:w-[280px] w-full'
+          className='text-grayscale-50 p-5 rounded-lg sm:w-[280px] w-full  relative shadow-2xl'
           style={{ marginTop: '-120%' }}
           >
           <div
