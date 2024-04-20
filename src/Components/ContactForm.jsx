@@ -42,8 +42,8 @@ const ContactForm = () => {
   style={{
     backgroundImage:
       "url(https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png)",
-    width: "80%",
-    height: "96%",
+    width: "100%",
+    height: "95%",
     boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)"
   }}
 >
@@ -109,12 +109,11 @@ const ContactForm = () => {
             ></textarea>
           </div>
           <div className="w-full flex justify-center">
-            <input
-              className="w-[100px] h-[50px] bg-primary-400 rounded-xl cursor-pointer hover:bg-primary-700"
-              type="submit"
-              value={!isSent ? 'Send' : 'Done!'}
-              
-            />
+          <input
+            className="w-[100px] h-[50px] bg-primary-400 rounded-xl cursor-pointer hover:bg-primary-700 mb-5"
+            type="submit"
+            value={!isSent ? 'Send' : 'Done!'}
+          />
           </div>
         </form>
       </div>
