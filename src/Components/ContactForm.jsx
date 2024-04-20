@@ -38,7 +38,7 @@ const ContactForm = () => {
   };  
 
   return (
-    <div
+    <div className="justify-center"
   style={{
     backgroundImage:
       "url(https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png)",
@@ -52,7 +52,7 @@ const ContactForm = () => {
           style={{ fontFamily: "Morganite Bold, sans-serif" }}
           className="message text-7xl bg-primary-400 p-2 rounded-xl text-grayscale-200 text-center rounded-br-[0%] relative shadow-2xl"
         >
-          <Typewriter words={["Let's get in touch!"]} loop={true} />
+          <Typewriter words={["LETS'S GET IN TOUCH!"]} loop={true} />
           &nbsp;
         </h2>
       </div>
@@ -64,7 +64,7 @@ const ContactForm = () => {
           target="_blank"
           onSubmit={sendEmail}
           style={{ fontFamily: "Poppins, sans-serif" }}
-          className="w-[80%] h-full flex flex-col gap-4 pt-4 text-grayscale-200"
+          className="w-[80%] h-full flex flex-col gap-4 pt-4 text-primary-200"
         >
           <div className="w-full flex flex-col">
             <label htmlFor="firstname">First Name</label>

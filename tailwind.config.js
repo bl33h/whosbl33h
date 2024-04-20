@@ -12,7 +12,7 @@ export default {
     },
     colors: {
       primary: {
-        200: '#ffffff', // white
+        200: '#ffffff', // almost white
         400: '#B64D80', // dark pink
         500: '#CD6899', // light pink 
       },
