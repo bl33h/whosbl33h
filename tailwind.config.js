@@ -15,6 +15,7 @@ export default {
         200: '#ffffff', // almost white
         400: '#B64D80', // dark pink
         500: '#CD6899', // light pink 
+        600: '#99235C', // wine
       },
       grayscale: {
         25: '#E4E2DD', // beige
