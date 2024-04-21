@@ -40,7 +40,6 @@ import {
   neoIcon,
   figmaIcon,
   pawsitivePrototype,
-  calculator,
   memoryGame,
   avatar,
 } from '../assets';
@@ -118,6 +117,13 @@ const projects = [
     demo_link: 'https://arasarmemory.netlify.app/',
   },
   {
+    name: 'Connect 4',
+    description: 'This project implements Connect Four in Python and Pygame, featuring a GUI and gameplay modes for player vs. AI and AI vs. AI. The AI uses the MiniMax algorithm, with optional alpha-beta pruning for improved performance.',
+    image: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjRkaWp6MDJ1cXNrZmMzaTZ2aXVhcWtndWJpNHg0djRpYWdtYjF3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/p49LPwL9yAoZInx28N/giphy.gif",
+    source_code_link: 'https://github.com/bl33h/connectFour',
+    demo_link: 'https://youtu.be/CBceC2BXJyE',
+  },
+  {
     name: 'Pawsitive',
     description: 'Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.',
     image: pawsitivePrototype,
@@ -125,11 +131,11 @@ const projects = [
     demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
   },
   {
-    name: 'Basic Calculator',
-    description: 'A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.',
-    image: calculator,
-    source_code_link: 'https://github.com/bl33h/calculator',
-    demo_link: 'https://bl33hscalculator.netlify.app/',
+    name: 'Exploring The Space',
+    description: 'The program uses OpenGL and C++ to render celestial bodies with dynamic realism. It includes a shader-based pipeline and a camera that follows a spaceship for added interactivity.',
+    image: "https://camo.githubusercontent.com/1f7fb7873058b029992d30b8601d2c36582f6bb399482c560d5560c2d02fc37e/68747470733a2f2f6d65646961342e67697068792e636f6d2f6d656469612f76312e59326c6b505463354d4749334e6a45784d4773314e6d733459336c6a4e4752684e3270354f574a33625456304f484675616d77314d574a314e6d31344d4849786254567963535a6c634431324d563970626e526c636d35686246396e61575a66596e6c666157516d593351395a772f76553246666b6d386e6744494e336d6d36572f67697068792e676966",
+    source_code_link: 'https://github.com/bl33h/exploringTheSpace',
+    demo_link: 'https://camo.githubusercontent.com/1f7fb7873058b029992d30b8601d2c36582f6bb399482c560d5560c2d02fc37e/68747470733a2f2f6d65646961342e67697068792e636f6d2f6d656469612f76312e59326c6b505463354d4749334e6a45784d4773314e6d733459336c6a4e4752684e3270354f574a33625456304f484675616d77314d574a314e6d31344d4849786254567963535a6c634431324d563970626e526c636d35686246396e61575a66596e6c666157516d593351395a772f76553246666b6d386e6744494e336d6d36572f67697068792e676966',
   },
 ];
 

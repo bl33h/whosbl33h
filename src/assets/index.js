@@ -32,7 +32,6 @@ import menu from './menu.svg';
 
 // Projects
 import pawsitivePrototype from './projects/pawsitive.jpeg';
-import calculator from './projects/calculator.jpg';
 import memoryGame from './projects/memory.jpg';
 
 // Avatar
@@ -58,7 +57,6 @@ export {
   neoIcon,
   raspIcon,
   pawsitivePrototype,
-  calculator,
   memoryGame,
   avatar,
   bl33hIcon,
