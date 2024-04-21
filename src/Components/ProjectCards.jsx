@@ -116,7 +116,7 @@ const ProjectCard = ({
               scale: 1,
               speed: 450,
           }}
-          className="shadow-2xl p-5 rounded-lg sm:w-[244px] w-[100%]"
+          className="shadow-2xl p-5 rounded-lg sm:w-[300px] w-[100%]"
       >
           <motion.div
               variants={fadeIn("up", "spring", index * 0.5, 0.75)}
