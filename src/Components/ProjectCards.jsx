@@ -116,7 +116,7 @@ const ProjectCard = ({
               scale: 1,
               speed: 450,
           }}
-          className="shadow-2xl p-5 rounded-lg sm:w-[270px] w-[80%]"
+          className="shadow-2xl p-5 rounded-lg sm:w-[244px] w-[100%]"
       >
           <motion.div
               variants={fadeIn("up", "spring", index * 0.5, 0.75)}
@@ -164,7 +164,7 @@ const ProjectCard = ({
 
 const Works = () => {
     return (
-        <div className="mt-5 flex flex-wrap justify-center gap-5 text-grayscale-50 w-full">
+        <div className="mt-5 flex flex-wrap justify-center gap-4 text-grayscale-50 w-full">
             {projects.map((project, index) => (
                 <ProjectCard key={`project-${index}`} index={index} {...project} />
             ))}
