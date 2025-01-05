@@ -24,7 +24,7 @@ import psqlIcon from './tech/postgresql.png';
 import eslintIcon from './tech/eslint.png';
 import viteIcon from './tech/vite.svg';
 import pyIcon from './tech/py.png';
-import nodeIcon from './tech/node.webp';
+import npmIcon from './tech/npm.png';
 import neoIcon from './tech/neo.png';
 import raspIcon from './tech/raspi.png';
 import close from './close.svg';
@@ -51,7 +51,7 @@ export {
   eslintIcon,
   figmaIcon,
   psqlIcon,
-  nodeIcon,
+  npmIcon,
   pyIcon,
   viteIcon,
   neoIcon,
